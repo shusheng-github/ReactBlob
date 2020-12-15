@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'JavaScript',
+  title: '前端之道',
   description: 'shusheng study react',
   themeConfig: {
     // 导航栏
