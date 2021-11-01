@@ -12,6 +12,8 @@
   "author": "shusheng",
   "license": "ISC",
   "devDependencies": {
+    "directory-tree": "^3.0.0",
     "vuepress": "^1.7.1"
-  }
+  },
+  "dependencies": {}
 }
