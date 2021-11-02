@@ -28,6 +28,8 @@ git push -f git@github.com:shusheng-github/shusheng-github.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
+# 删除dist目录
+cd ../
 
 rm -rf dist
 
