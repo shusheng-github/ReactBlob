@@ -31,6 +31,6 @@ git push -f git@github.com:shusheng-github/shusheng-github.github.io.git master
 # 删除dist目录
 cd ../
 
-rm -rf dist
+rm -rf dist/
 
 cd -
