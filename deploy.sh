@@ -3,6 +3,13 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+git init
+git add -A
+git commit -m 'commit'
+
+git push
+
+
 # 生成静态文件
 npm run docs:build
 
@@ -21,5 +28,7 @@ git push -f git@github.com:shusheng-github/shusheng-github.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
+
+rm -rf dist
 
 cd -
