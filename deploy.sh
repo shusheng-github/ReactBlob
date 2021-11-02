@@ -33,4 +33,4 @@ cd ../
 
 rm -rf dist/
 
-# cd -
+cd ../
